@@ -1,8 +1,12 @@
-#Network Dynamics Microscopic Markov Chains and Monte Carlo Simulations
+# Network Dynamics Microscopic Markov Chains and Monte Carlo Simulations
 This project simulates the spread of infections in a network replicating 
 the SIS (Susceptible-Infected-Susceptible) model. It uses the 
 Barabasi-Albert (BA) model to manually generate scale-free networks and 
 analyzes the dynamics of disease spread over time. 
+
+## Authors
+**Nicolau San Millán, Sander Rannik, Yago Granada, Riccardo Orsini and 
+Rodrigo Sastré**
 
 ## Table of Contents
 -[Installation](#installation)
