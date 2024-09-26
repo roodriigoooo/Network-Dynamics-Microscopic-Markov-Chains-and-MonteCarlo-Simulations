@@ -88,17 +88,17 @@ networks.
 
 **Infection ratio over time:**
 
-![p_vs_steps](~/Desktop/p_vs_steps.png)
+![p_vs_steps](images/p_vs_steps.png)
 
 The displays the evolution of the ratio of infected individuals over time (steps) for varying initial infected sizes and values of the basic reproduction number (R0, which is beta over mu). Each line on the graph represents a distinct combination of initial infected size and R0 value, allowing for a comparative analysis of how different parameters influence the progression of the spread. For instance, higher initial infected sizes or larger R0 (that is beta larger than mu) values lead to faster and more extensive outbreaks, whereas lower values of these parameters result in slower patterns. 
 
 **Evolution of Infection ratio vs. Infection rate:**
-![p_vs_beta](~/Desktop/p_vs_beta.png)
+![p_vs_beta](images/p_vs_beta.png)
 
 The visualization depicts the relationship between the infection rate (beta) and the average fraction of infected individuals (ρ) while keeping the recovery rate (mu) fixed. Each line on the graph represents a distinct value of the recovery rate (mu), allowing for a comparative analysis of how different values of mu influence the impact of changes in the infection rate on the spread of the disease. Higher infection rates and lower recovery reates lead to a more rapid increase in the fraction of infected individuals, resulting in larger outbreaks and potentially more severe epidemics. 
 
 **Infection ratio vs. Basic reproduction number:**
-![p_vs_r0](~/Desktop/p_vs_r0)
+![p_vs_r0](images/p_vs_r0)
 
 The graph shows how the basic reproduction number (R0) affects the average fraction of infected individuals across different network setups depending on the configuration of the parameters of the Barabasi-Albert model: Initial network size (m0, which determines the number of nodes in the initial fully connected network before new nodes are added, a higher m0 value results in a larger initial network size); and Number of edges added for each new node (m, which specifies the number of edges that new nodes form with existing nodes when they are added to the network, higher values of m lead to networks with denser connectivity). Each line represents a unique network structure, and by examining this graph, we can see how less connected networks manage to contain more the spread. 
 
